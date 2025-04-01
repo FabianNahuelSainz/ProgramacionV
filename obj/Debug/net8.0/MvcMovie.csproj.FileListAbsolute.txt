@@ -32,3 +32,4 @@ C:\Users\Corredores Viales\OneDrive - CORREDORES VIALES SOCIEDAD ANONIMA\Escrito
 C:\Users\Corredores Viales\OneDrive - CORREDORES VIALES SOCIEDAD ANONIMA\Escritorio\SAINZ\FACULTAD 3ER AÑO\PROGRAMACIÓN V\MvcMovie\obj\Debug\net8.0\MvcMovie.pdb
 C:\Users\Corredores Viales\OneDrive - CORREDORES VIALES SOCIEDAD ANONIMA\Escritorio\SAINZ\FACULTAD 3ER AÑO\PROGRAMACIÓN V\MvcMovie\obj\Debug\net8.0\MvcMovie.genruntimeconfig.cache
 C:\Users\Corredores Viales\OneDrive - CORREDORES VIALES SOCIEDAD ANONIMA\Escritorio\SAINZ\FACULTAD 3ER AÑO\PROGRAMACIÓN V\MvcMovie\obj\Debug\net8.0\ref\MvcMovie.dll
+C:\Users\Corredores Viales\OneDrive - CORREDORES VIALES SOCIEDAD ANONIMA\Escritorio\SAINZ\FACULTAD 3ER AÑO\PROGRAMACIÓN V\MvcMovie\obj\Debug\net8.0\MvcMovie.sourcelink.json

@@ -5,6 +5,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{C459B67B-ED12-4C26-90A6-F23372D2BDFC}|MvcMovie.csproj|c:\\users\\corredores viales\\onedrive - corredores viales sociedad anonima\\escritorio\\sainz\\facultad 3er a\u00F1o\\programaci\u00F3n v\\mvcmovie\\controllers\\helloworldcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C459B67B-ED12-4C26-90A6-F23372D2BDFC}|MvcMovie.csproj|solutionrelative:controllers\\helloworldcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C459B67B-ED12-4C26-90A6-F23372D2BDFC}|MvcMovie.csproj|c:\\users\\corredores viales\\onedrive - corredores viales sociedad anonima\\escritorio\\sainz\\facultad 3er a\u00F1o\\programaci\u00F3n v\\mvcmovie\\views\\helloworld\\welcome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C459B67B-ED12-4C26-90A6-F23372D2BDFC}|MvcMovie.csproj|solutionrelative:views\\helloworld\\welcome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C459B67B-ED12-4C26-90A6-F23372D2BDFC}|MvcMovie.csproj|c:\\users\\corredores viales\\onedrive - corredores viales sociedad anonima\\escritorio\\sainz\\facultad 3er a\u00F1o\\programaci\u00F3n v\\mvcmovie\\views\\helloworld\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C459B67B-ED12-4C26-90A6-F23372D2BDFC}|MvcMovie.csproj|solutionrelative:views\\helloworld\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +22,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Welcome.cshtml",
+              "DocumentMoniker": "C:\\Users\\Corredores Viales\\OneDrive - CORREDORES VIALES SOCIEDAD ANONIMA\\Escritorio\\SAINZ\\FACULTAD 3ER A\u00D1O\\PROGRAMACI\u00D3N V\\MvcMovie\\Views\\HelloWorld\\Welcome.cshtml",
+              "RelativeDocumentMoniker": "Views\\HelloWorld\\Welcome.cshtml",
+              "ToolTip": "C:\\Users\\Corredores Viales\\OneDrive - CORREDORES VIALES SOCIEDAD ANONIMA\\Escritorio\\SAINZ\\FACULTAD 3ER A\u00D1O\\PROGRAMACI\u00D3N V\\MvcMovie\\Views\\HelloWorld\\Welcome.cshtml",
+              "RelativeToolTip": "Views\\HelloWorld\\Welcome.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-10T18:10:28.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Corredores Viales\\OneDrive - CORREDORES VIALES SOCIEDAD ANONIMA\\Escritorio\\SAINZ\\FACULTAD 3ER A\u00D1O\\PROGRAMACI\u00D3N V\\MvcMovie\\Views\\HelloWorld\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\HelloWorld\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Corredores Viales\\OneDrive - CORREDORES VIALES SOCIEDAD ANONIMA\\Escritorio\\SAINZ\\FACULTAD 3ER A\u00D1O\\PROGRAMACI\u00D3N V\\MvcMovie\\Views\\HelloWorld\\Index.cshtml",
+              "RelativeToolTip": "Views\\HelloWorld\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-10T12:27:25.752Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +58,7 @@
               "RelativeDocumentMoniker": "Controllers\\HelloWorldController.cs",
               "ToolTip": "C:\\Users\\Corredores Viales\\OneDrive - CORREDORES VIALES SOCIEDAD ANONIMA\\Escritorio\\SAINZ\\FACULTAD 3ER A\u00D1O\\PROGRAMACI\u00D3N V\\MvcMovie\\Controllers\\HelloWorldController.cs",
               "RelativeToolTip": "Controllers\\HelloWorldController.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAQwBMAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAApwBIAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-01T15:00:44.328Z",
               "EditorCaption": ""

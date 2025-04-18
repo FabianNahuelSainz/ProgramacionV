@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Corredores Viales\\OneDrive - CORREDORES VIALES SOCIEDAD ANONIMA\\Escritorio\\SAINZ\\FACULTAD 3ER A\u00D1O\\PROGRAMACI\u00D3N V\\MvcMovie\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C459B67B-ED12-4C26-90A6-F23372D2BDFC}|MvcMovie.csproj|c:\\users\\corredores viales\\onedrive - corredores viales sociedad anonima\\escritorio\\sainz\\facultad 3er a\u00F1o\\programaci\u00F3n v\\mvcmovie\\controllers\\helloworldcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C459B67B-ED12-4C26-90A6-F23372D2BDFC}|MvcMovie.csproj|solutionrelative:controllers\\helloworldcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C459B67B-ED12-4C26-90A6-F23372D2BDFC}|MvcMovie.csproj|c:\\users\\corredores viales\\onedrive - corredores viales sociedad anonima\\escritorio\\sainz\\facultad 3er a\u00F1o\\programaci\u00F3n v\\mvcmovie\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C459B67B-ED12-4C26-90A6-F23372D2BDFC}|MvcMovie.csproj|solutionrelative:controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C459B67B-ED12-4C26-90A6-F23372D2BDFC}|MvcMovie.csproj|c:\\users\\corredores viales\\onedrive - corredores viales sociedad anonima\\escritorio\\sainz\\facultad 3er a\u00F1o\\programaci\u00F3n v\\mvcmovie\\views\\helloworld\\welcome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C459B67B-ED12-4C26-90A6-F23372D2BDFC}|MvcMovie.csproj|solutionrelative:views\\helloworld\\welcome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C459B67B-ED12-4C26-90A6-F23372D2BDFC}|MvcMovie.csproj|c:\\users\\corredores viales\\onedrive - corredores viales sociedad anonima\\escritorio\\sainz\\facultad 3er a\u00F1o\\programaci\u00F3n v\\mvcmovie\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C459B67B-ED12-4C26-90A6-F23372D2BDFC}|MvcMovie.csproj|solutionrelative:models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C459B67B-ED12-4C26-90A6-F23372D2BDFC}|MvcMovie.csproj|c:\\users\\corredores viales\\onedrive - corredores viales sociedad anonima\\escritorio\\sainz\\facultad 3er a\u00F1o\\programaci\u00F3n v\\mvcmovie\\views\\helloworld\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C459B67B-ED12-4C26-90A6-F23372D2BDFC}|MvcMovie.csproj|solutionrelative:views\\helloworld\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C459B67B-ED12-4C26-90A6-F23372D2BDFC}|MvcMovie.csproj|c:\\users\\corredores viales\\onedrive - corredores viales sociedad anonima\\escritorio\\sainz\\facultad 3er a\u00F1o\\programaci\u00F3n v\\mvcmovie\\views\\movies\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C459B67B-ED12-4C26-90A6-F23372D2BDFC}|MvcMovie.csproj|solutionrelative:views\\movies\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C459B67B-ED12-4C26-90A6-F23372D2BDFC}|MvcMovie.csproj|c:\\users\\corredores viales\\onedrive - corredores viales sociedad anonima\\escritorio\\sainz\\facultad 3er a\u00F1o\\programaci\u00F3n v\\mvcmovie\\views\\movies\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C459B67B-ED12-4C26-90A6-F23372D2BDFC}|MvcMovie.csproj|solutionrelative:views\\movies\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C459B67B-ED12-4C26-90A6-F23372D2BDFC}|MvcMovie.csproj|c:\\users\\corredores viales\\onedrive - corredores viales sociedad anonima\\escritorio\\sainz\\facultad 3er a\u00F1o\\programaci\u00F3n v\\mvcmovie\\views\\helloworld\\movies.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C459B67B-ED12-4C26-90A6-F23372D2BDFC}|MvcMovie.csproj|solutionrelative:views\\helloworld\\movies.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,41 +34,64 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Welcome.cshtml",
-              "DocumentMoniker": "C:\\Users\\Corredores Viales\\OneDrive - CORREDORES VIALES SOCIEDAD ANONIMA\\Escritorio\\SAINZ\\FACULTAD 3ER A\u00D1O\\PROGRAMACI\u00D3N V\\MvcMovie\\Views\\HelloWorld\\Welcome.cshtml",
-              "RelativeDocumentMoniker": "Views\\HelloWorld\\Welcome.cshtml",
-              "ToolTip": "C:\\Users\\Corredores Viales\\OneDrive - CORREDORES VIALES SOCIEDAD ANONIMA\\Escritorio\\SAINZ\\FACULTAD 3ER A\u00D1O\\PROGRAMACI\u00D3N V\\MvcMovie\\Views\\HelloWorld\\Welcome.cshtml",
-              "RelativeToolTip": "Views\\HelloWorld\\Welcome.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAApAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Corredores Viales\\OneDrive - CORREDORES VIALES SOCIEDAD ANONIMA\\Escritorio\\SAINZ\\FACULTAD 3ER A\u00D1O\\PROGRAMACI\u00D3N V\\MvcMovie\\Views\\Movies\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Movies\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Corredores Viales\\OneDrive - CORREDORES VIALES SOCIEDAD ANONIMA\\Escritorio\\SAINZ\\FACULTAD 3ER A\u00D1O\\PROGRAMACI\u00D3N V\\MvcMovie\\Views\\Movies\\Index.cshtml",
+              "RelativeToolTip": "Views\\Movies\\Index.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAqwB4AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-10T18:10:28.823Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-18T21:14:34.272Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Corredores Viales\\OneDrive - CORREDORES VIALES SOCIEDAD ANONIMA\\Escritorio\\SAINZ\\FACULTAD 3ER A\u00D1O\\PROGRAMACI\u00D3N V\\MvcMovie\\Views\\HelloWorld\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\HelloWorld\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Corredores Viales\\OneDrive - CORREDORES VIALES SOCIEDAD ANONIMA\\Escritorio\\SAINZ\\FACULTAD 3ER A\u00D1O\\PROGRAMACI\u00D3N V\\MvcMovie\\Views\\HelloWorld\\Index.cshtml",
-              "RelativeToolTip": "Views\\HelloWorld\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAbAAAAAAAAAA==",
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Corredores Viales\\OneDrive - CORREDORES VIALES SOCIEDAD ANONIMA\\Escritorio\\SAINZ\\FACULTAD 3ER A\u00D1O\\PROGRAMACI\u00D3N V\\MvcMovie\\Views\\Movies\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Movies\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Corredores Viales\\OneDrive - CORREDORES VIALES SOCIEDAD ANONIMA\\Escritorio\\SAINZ\\FACULTAD 3ER A\u00D1O\\PROGRAMACI\u00D3N V\\MvcMovie\\Views\\Movies\\Details.cshtml",
+              "RelativeToolTip": "Views\\Movies\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-10T12:27:25.752Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-18T21:02:23.458Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "HelloWorldController.cs",
-              "DocumentMoniker": "C:\\Users\\Corredores Viales\\OneDrive - CORREDORES VIALES SOCIEDAD ANONIMA\\Escritorio\\SAINZ\\FACULTAD 3ER A\u00D1O\\PROGRAMACI\u00D3N V\\MvcMovie\\Controllers\\HelloWorldController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HelloWorldController.cs",
-              "ToolTip": "C:\\Users\\Corredores Viales\\OneDrive - CORREDORES VIALES SOCIEDAD ANONIMA\\Escritorio\\SAINZ\\FACULTAD 3ER A\u00D1O\\PROGRAMACI\u00D3N V\\MvcMovie\\Controllers\\HelloWorldController.cs",
-              "RelativeToolTip": "Controllers\\HelloWorldController.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAApwBIAAAAaAAAAAAAAAA==",
+              "Title": "MoviesController.cs",
+              "DocumentMoniker": "C:\\Users\\Corredores Viales\\OneDrive - CORREDORES VIALES SOCIEDAD ANONIMA\\Escritorio\\SAINZ\\FACULTAD 3ER A\u00D1O\\PROGRAMACI\u00D3N V\\MvcMovie\\Controllers\\MoviesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MoviesController.cs",
+              "ToolTip": "C:\\Users\\Corredores Viales\\OneDrive - CORREDORES VIALES SOCIEDAD ANONIMA\\Escritorio\\SAINZ\\FACULTAD 3ER A\u00D1O\\PROGRAMACI\u00D3N V\\MvcMovie\\Controllers\\MoviesController.cs",
+              "RelativeToolTip": "Controllers\\MoviesController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAMwBgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-01T15:00:44.328Z",
+              "WhenOpened": "2025-04-18T20:56:53.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Movies.cshtml",
+              "DocumentMoniker": "C:\\Users\\Corredores Viales\\OneDrive - CORREDORES VIALES SOCIEDAD ANONIMA\\Escritorio\\SAINZ\\FACULTAD 3ER A\u00D1O\\PROGRAMACI\u00D3N V\\MvcMovie\\Views\\HelloWorld\\Movies.cshtml",
+              "RelativeDocumentMoniker": "Views\\HelloWorld\\Movies.cshtml",
+              "ToolTip": "C:\\Users\\Corredores Viales\\OneDrive - CORREDORES VIALES SOCIEDAD ANONIMA\\Escritorio\\SAINZ\\FACULTAD 3ER A\u00D1O\\PROGRAMACI\u00D3N V\\MvcMovie\\Views\\HelloWorld\\Movies.cshtml",
+              "RelativeToolTip": "Views\\HelloWorld\\Movies.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-18T20:46:24.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Movie.cs",
+              "DocumentMoniker": "C:\\Users\\Corredores Viales\\OneDrive - CORREDORES VIALES SOCIEDAD ANONIMA\\Escritorio\\SAINZ\\FACULTAD 3ER A\u00D1O\\PROGRAMACI\u00D3N V\\MvcMovie\\Models\\Movie.cs",
+              "RelativeDocumentMoniker": "Models\\Movie.cs",
+              "ToolTip": "C:\\Users\\Corredores Viales\\OneDrive - CORREDORES VIALES SOCIEDAD ANONIMA\\Escritorio\\SAINZ\\FACULTAD 3ER A\u00D1O\\PROGRAMACI\u00D3N V\\MvcMovie\\Models\\Movie.cs",
+              "RelativeToolTip": "Models\\Movie.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T20:30:34.456Z",
               "EditorCaption": ""
             }
           ]

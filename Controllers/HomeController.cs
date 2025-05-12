@@ -13,9 +13,33 @@ namespace MvcMovie.Controllers
             _logger = logger;
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            return View();
+            var listMovies = new List<Movie>();
+
+            var movie1 = new Movie
+            {
+                Genre = "Terror",
+                Id = 1,
+                Price = 1,
+                ReleaseDate = DateTime.Now,
+                Title = "La noche del terror"
+            };
+
+            listMovies.Add(movie1);
+
+            var movie2 = new Movie
+            {
+                Genre = "Terror",
+                Id = 1,
+                Price = 1,
+                ReleaseDate = DateTime.Now,
+                Title = "El día del terror"
+            };
+            listMovies.Add(movie2);
+
+            return View(listMovies);
+
         }
 
         public IActionResult Privacy()

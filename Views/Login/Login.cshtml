@@ -1,0 +1,102 @@
+﻿@{
+    ViewBag.Title = "Iniciar Sesión";
+    Layout = null; // Si tienes un Layout, considera eliminar esta línea
+}
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewBag.Title</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f5f5f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .login-container {
+            background-color: white;
+            padding: 30px 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            width: 300px;
+        }
+
+            .login-container h2 {
+                text-align: center;
+                margin-bottom: 25px;
+                color: #333;
+            }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            color: #555;
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+            input[type="submit"]:hover {
+                background-color: #0056b3;
+            }
+
+        .error-message {
+            color: red;
+            text-align: center;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <h2>Iniciar Sesión</h2>
+
+        @using (Html.BeginForm())
+        {
+            <div class="form-group">
+                <label for="Usuario">Usuario</label>
+                @Html.TextBox("Usuario", null, new { @id = "Usuario" })
+            </div>
+
+            <div class="form-group">
+                <label for="Contrasenia">Contraseña</label>
+                @Html.Password("Contrasenia", null, new { @id = "Contrasenia" })
+            </div>
+
+            <input type="submit" value="Ingresar" />
+        }
+
+        @if (ViewBag.Error != null)
+        {
+            <div class="error-message">@ViewBag.Error</div>
+        }
+    </div>
+</body>
+</html>
+

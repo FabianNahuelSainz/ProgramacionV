@@ -47,12 +47,17 @@ namespace MvcMovie.Controllers
                 Id = 1,
                 Price = 1,
                 ReleaseDate = DateTime.Now,
-                Title = "La noche del terror II"
+                Title = "El día del terror"
             };
             listMovies.Add(movie2);
 
             return View(listMovies);
 
+        }
+
+        public IActionResult Create()
+        {
+            return View();
         }
     }
 }

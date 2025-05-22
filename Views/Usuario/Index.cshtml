@@ -1,0 +1,26 @@
+﻿<form asp-controller="Usuario" asp-action="ForMetodo" method="get">
+    <button type="submit">Obtener Usuarios</button>
+</form>
+
+@if (ViewBag.ListaUsuario != null)
+{
+    <table border="1">
+        <tr>
+            <th>Id</th>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Email</th>
+            <th>Usuario</th>
+        </tr>
+        @foreach (var usuario in ViewBag.ListaUsuario)
+        {
+            <tr>
+                <td>@usuario.Id</td>
+                <td>@usuario.Nombre</td>
+                <td>@usuario.Apellido</td>
+                <td>@usuario.Email</td>
+                <td>@usuario.Username</td>
+            </tr>
+        }
+    </table>
+}

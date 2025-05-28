@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Mvc;
 using MvcMovie.BaseUsuarios;
 
 namespace MvcMovie.Controllers
@@ -17,7 +18,7 @@ namespace MvcMovie.Controllers
             if (user != null)
             {
                 //HttpContext.Session.SetString("User", user.Usuario);
-                return RedirectToAction("Index", "Home");
+                return RedirectToAction("Index", "Usuario");
             }
             else
             {
@@ -25,6 +26,12 @@ namespace MvcMovie.Controllers
             }
 
             return View();
+        }
+
+        public IActionResult Logout()
+        {
+            HttpContext.SignOutAsync("Cookies");
+            return RedirectToAction("Login");
         }
     }
 }

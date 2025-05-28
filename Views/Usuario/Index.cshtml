@@ -1,26 +1,122 @@
-﻿<form asp-controller="Usuario" asp-action="ForMetodo" method="get">
-    <button type="submit">Obtener Usuarios</button>
-</form>
+﻿<style>
+    html, body {
+        height: 100%;
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #f4f8fb;
+    }
 
-@if (ViewBag.ListaUsuario != null)
-{
-    <table border="1">
-        <tr>
-            <th>Id</th>
-            <th>Nombre</th>
-            <th>Apellido</th>
-            <th>Email</th>
-            <th>Usuario</th>
-        </tr>
-        @foreach (var usuario in ViewBag.ListaUsuario)
-        {
-            <tr>
-                <td>@usuario.Id</td>
-                <td>@usuario.Nombre</td>
-                <td>@usuario.Apellido</td>
-                <td>@usuario.Email</td>
-                <td>@usuario.Username</td>
-            </tr>
+    .form-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh; /* Ocupa toda la altura de la ventana */
+        padding: 10px; /* Pequeño margen para evitar desbordes */
+        box-sizing: border-box;
+    }
+
+    .form-container {
+        width: 100%;
+        max-width: 360px;
+        background-color: #ffffff;
+        border: 1px solid #dce6f0;
+        border-radius: 8px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+        .form-container h2 {
+            margin-bottom: 16px;
+            color: #336699;
+            text-align: center;
+            font-size: 20px;
         }
-    </table>
-}
+
+    label {
+        display: block;
+        margin-bottom: 4px;
+        font-weight: bold;
+        font-size: 14px;
+        color: #333;
+    }
+
+    input[type="text"],
+    input[type="password"],
+    input[type="email"] {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 12px;
+        border: 1px solid #ccd6e0;
+        border-radius: 4px;
+        box-sizing: border-box;
+        font-size: 14px;
+    }
+
+    button {
+        width: 100%;
+        padding: 10px;
+        background-color: #336699;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        font-weight: bold;
+        font-size: 14px;
+        cursor: pointer;
+    }
+
+        button:hover {
+            background-color: #2a557a;
+        }
+
+    .message {
+        margin-top: 12px;
+        text-align: center;
+        font-weight: bold;
+        font-size: 14px;
+    }
+
+        .message.success {
+            color: #28a745;
+        }
+
+        .message.error {
+            color: #dc3545;
+        }
+</style>
+
+<div class="form-wrapper">
+    <div class="form-container">
+        <h2>Registro de Usuario</h2>
+
+        <form asp-controller="Usuario" asp-action="ForMetodo" method="post">
+            <label>Nombre:</label>
+            <input type="text" name="Nombre" required />
+
+            <label>Apellido:</label>
+            <input type="text" name="Apellido" required />
+
+            <label>Email:</label>
+            <input type="email" name="Email" required />
+
+            <label>Usuario:</label>
+            <input type="text" name="Usuario" required />
+
+            <label>Contraseña:</label>
+            <input type="password" name="Contrasenia" required />
+
+            <button type="submit">Registrar Usuario</button>
+        </form>
+
+        @if (ViewBag.Mensaje != null)
+        {
+            <div class="message success">@ViewBag.Mensaje</div>
+        }
+
+        @if (ViewBag.Error != null)
+        {
+            <div class="message error">@ViewBag.Error</div>
+        }
+    </div>
+</div>
+

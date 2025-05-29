@@ -1,0 +1,68 @@
+﻿@model List<MvcMovie.Models.Usuario>
+
+<style>
+    .btn-azul {
+        background-color: #336699;
+        color: white;
+        font-weight: bold;
+        border: none;
+    }
+
+        .btn-azul:hover {
+            background-color: #2a557a;
+        }
+
+    .table thead {
+        background-color: #eaf1f8;
+    }
+
+    .table-bordered td, .table-bordered th {
+        vertical-align: middle;
+    }
+
+    h2 {
+        color: #336699;
+        margin-bottom: 20px;
+    }
+</style>
+
+<h2>Listado de Usuarios</h2>
+
+<div class="top-button">
+    <a asp-controller="Usuario" asp-action="Index" class="btn btn-primary">Registro de Usuarios</a>
+</div>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Email</th>
+            <th>Usuario</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var usuario in Model)
+        {
+            <tr>
+                <td>@usuario.Id</td>
+                <td>@usuario.Nombre</td>
+                <td>@usuario.Apellido</td>
+                <td>@usuario.Email</td>
+                <td>@usuario.Username</td>
+                <td>
+                    <a asp-action="Editar" asp-route-id="@usuario.Id" class="btn btn-sm btn-azul">Editar</a>
+
+                    <form asp-action="Eliminar" method="post" asp-route-id="@usuario.Id" style="display:inline;"
+                          onsubmit="return confirm('¿Estás seguro que querés eliminar este usuario?');">
+                        <button type="submit" class="btn btn-sm btn-azul">Eliminar</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+

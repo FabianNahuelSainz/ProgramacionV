@@ -60,5 +60,36 @@ namespace MvcMovie.Controllers
             return View("Index");
         }
 
+        public ActionResult Listado()
+        {
+            List<Usuario> usuarios = new List<Usuario>();
+
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+
+                string query = "SELECT * FROM usuarios";
+
+                SqlCommand command = new SqlCommand(query, connection);
+                connection.Open();
+
+                SqlDataReader reader = command.ExecuteReader();
+                while (reader.Read())
+                {
+                    usuarios.Add(new Usuario
+                    {
+                        Id = reader.GetInt32(0),
+                        Nombre = reader.GetString(1),
+                        Apellido = reader.GetString(2),
+                        Email = reader.GetString(3),
+                        Username = reader.GetString(4),
+                        Password = reader.GetString(5)
+
+                    });
+                }
+                return View(usuarios);
+
+            }
+        }
+
     }
 }

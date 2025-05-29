@@ -18,7 +18,7 @@ namespace MvcMovie.Controllers
             if (user != null)
             {
                 //HttpContext.Session.SetString("User", user.Usuario);
-                return RedirectToAction("Index", "Usuario");
+                return RedirectToAction("Listado", "Usuario");
             }
             else
             {

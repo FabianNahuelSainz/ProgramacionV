@@ -62,6 +62,7 @@ namespace MvcMovie.Controllers
 
         public ActionResult Listado()
         {
+
             List<Usuario> usuarios = new List<Usuario>();
 
             using (SqlConnection connection = new SqlConnection(connectionString))

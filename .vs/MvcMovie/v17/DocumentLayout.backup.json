@@ -38,8 +38,7 @@
               "RelativeToolTip": "Views\\Usuario\\Editar.cshtml",
               "ViewState": "AgIAABEAAAAAAAAAAADwvyMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-05T18:07:08.751Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-05T18:07:08.751Z"
             },
             {
               "$type": "Document",
@@ -49,7 +48,7 @@
               "RelativeDocumentMoniker": "Controllers\\UsuarioController.cs",
               "ToolTip": "C:\\Users\\Corredores Viales\\OneDrive - CORREDORES VIALES SOCIEDAD ANONIMA\\Escritorio\\SAINZ\\FACULTAD 3ER A\u00D1O\\PROGRAMACI\u00D3N V\\MvcMovie\\Controllers\\UsuarioController.cs",
               "RelativeToolTip": "Controllers\\UsuarioController.cs",
-              "ViewState": "AgIAAIUAAAAAAAAAAAAAwI8AAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-29T14:16:19.242Z",
               "EditorCaption": ""
@@ -64,8 +63,7 @@
               "RelativeToolTip": "Views\\Usuario\\Listado.cshtml",
               "ViewState": "AgIAACoAAAAAAAAAAADwv0AAAABtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-29T13:15:46.176Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-29T13:15:46.176Z"
             },
             {
               "$type": "Document",
@@ -77,8 +75,7 @@
               "RelativeToolTip": "Views\\Usuario\\Index.cshtml",
               "ViewState": "AgIAAHQAAAAAAAAAAADwv5MAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-22T17:47:46.803Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-22T17:47:46.803Z"
             }
           ]
         }

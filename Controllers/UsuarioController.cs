@@ -8,7 +8,6 @@ namespace MvcMovie.Controllers
 {
     public class UsuarioController : Controller
     {
-        [Authorize]
         public ActionResult Index()
         {
             return View();

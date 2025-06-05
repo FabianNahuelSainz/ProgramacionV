@@ -32,6 +32,13 @@
     <a asp-controller="Usuario" asp-action="Index" class="btn btn-primary">Registro de Usuarios</a>
 </div>
 
+@if (TempData["Mensaje"] != null)
+{
+    <div class="alert alert-info">
+        @TempData["Mensaje"]
+    </div>
+}
+
 <table class="table table-bordered">
     <thead>
         <tr>
